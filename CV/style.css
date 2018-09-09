@@ -1,0 +1,91 @@
+body {
+    /*padding-left: 11em;*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    background-color: lightcyan}
+
+  ul.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 9em }
+
+  h1 {
+    font-family: Arial, Helvetica, sans-serif }
+
+  ul.navbar li {
+    background: white;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 1em solid black }
+
+  ul.navbar a {
+    text-decoration: none }
+
+  a:link {
+    color: blue }
+
+  a:visited {
+    color: purple }
+
+  address {
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: thin dotted }
+
+  table.blueTable {
+    border: 1px solid #1C6EA4;
+    background-color:#FAFCF7;
+    border-collapse: collapse }
+  
+  .columnaEmpresa{
+    border: 1px solid #1C6EA4;
+    padding: 3px 5px;
+    border: 2cm;
+    box-align:initial;
+    margin: 0 auto;
+    width:30%;
+    align-content: center;
+    align-items: center;
+    text-align: center }
+
+  .columnaDescripcion{
+    border: 1px solid #1C6EA4;
+    font-size: 13px;
+    padding: 3px 5px;
+    border: 2cm;
+    box-align:initial;
+    margin: 0 auto;
+    width:50%;
+    text-align:justify }
+
+
+  .centrado{
+      text-align:center }
+
+  #destacado{
+      font-weight: bold }
+
+  .divContenedor{
+    width: 60%;
+    border-width: 20px solid;
+    border-color: black;
+    display: flex;
+    text-align: justify;
+    margin-right: auto;
+    margin-left: auto ;
+    justify-content: center;
+    align-items: center }
+
+  .divAlineado{
+    width: 80%;
+    border-width: 20px solid;
+    border-color: black;
+    text-align:left; 
+    margin-left: auto }
+
+ 
