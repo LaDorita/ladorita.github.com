@@ -72,8 +72,6 @@ body {
 
   .divContenedor{
     width: 60%;
-    border-width: 20px solid;
-    border-color: black;
     display: flex;
     text-align: justify;
     margin-right: auto;
@@ -81,11 +79,19 @@ body {
     justify-content: center;
     align-items: center }
 
+    
   .divAlineado{
     width: 80%;
-    border-width: 20px solid;
-    border-color: black;
     text-align:left; 
     margin-left: auto }
+
+
+  .example1{
+    height: 50px;
+    width: 40%;
+    display: inline-block;
+  }
+
+
 
  
