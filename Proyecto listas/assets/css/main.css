@@ -1,0 +1,172 @@
+ 
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.título{
+	border: solid 1px;
+	border-radius: 10px;
+	text-align: center;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
+    color: whitesmoke;
+}
+
+.título2{
+	border: solid 1px;
+	border-radius: 20px;
+	text-align: center;
+	width: 80%;
+	margin-left: auto;
+    margin-right: auto;
+    background-color: #E5E3E8;
+    color: dimgrey;
+}
+
+títuloCentrado{
+	border: solid 1px;
+	border-radius: 10px;
+	text-align: center;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+    background: linear-gradient(to right, #b29f94, #603813); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: whitesmoke;
+}
+
+.contenedor{    
+    height: 100vh;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.contenido{    
+    max-width: 1500px;
+    max-height: 700px;
+    width: 70%;
+    height: auto;
+    background-color: white;
+    overflow: scroll;
+}
+
+.content2{    
+    max-width: 1500px;
+    max-height: 800px;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.divContenedor{
+    width: 55%;
+    display: flex;
+    text-align: justify;
+    margin-right: auto;
+    margin-left: auto ;
+    justify-content: center;
+    align-items: center }
+
+.divContenedorCentrado{
+    width: 60%;
+    font-size: 14px;
+    text-align: justify;
+    margin-right: auto;
+    margin-left: auto ;
+    justify-content: center;
+    align-items: center;
+    border: solid 5px;
+    padding: 3px 5px;
+}
+
+.centrado{
+    text-align:center }
+
+.destacado{
+    font-weight: bold }
+
+.divEspacio{
+    height: 50px;
+    border: none;
+    width: 40%;
+    display: inline-block;
+}
+
+.table{
+    width: 100%;
+    height: auto;
+    border-spacing: 0;
+    scroll-behavior: unset;
+    font-size: 13px;
+}
+
+.table td{
+    padding: 1em;
+    text-align: left;
+}
+
+table th{
+    padding: 1em;
+    text-align: left;
+    background-color: #C8B6D5;
+}
+
+.cabecera{
+    text-justify: center;
+    font-weight: bold;
+}
+
+.table tr:nth-child(even){/*los obejtos tr que son pares*/
+    background-color: #CBCEE8;
+}
+
+.table tr:nth-child(odd){/*los obejtos tr que son impares*/
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+
+.scrolle{
+    overflow: scroll;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.format{
+    text-justify: center;
+    font-weight: bold;
+}
+
+.contenedor{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+.boton{
+	text-decoration: none;
+	color: white;
+}
+
+.menu-item{
+	border: solid 1px;
+	padding: 0.5em;
+	border-radius: 20px;
+	width: 10em;
+	text-align: center;
+	margin-bottom: 0.5em;
+	background-color: grey;
+	color: white;
+}
+
+.menu-item:hover{ 
+	background-color: darkgrey;
+}
